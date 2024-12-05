@@ -2,7 +2,7 @@ import os
 import cv2
 
 img_path = os.path.join('.' , 'read_write_image' , 'sample.png')
-
+# omg = "./x.png"
 img = cv2.imread(img_path)
 
 cv2.imwrite(os.path.join('.' , 'read_write_image' ,'sample_out.png'),img)

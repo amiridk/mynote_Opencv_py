@@ -11,6 +11,6 @@ while ret :
     ret , frame =video.read()
     if ret:
         cv2.imshow('frame_video' , frame)
-        cv2.waitKey(40)
+        cv2.waitKey(125)
 video.release()
 cv2.destroyAllWindows()
